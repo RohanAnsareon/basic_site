@@ -1,0 +1,66 @@
+html,
+body {
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: antiquewhite;
+}
+
+.card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card .card-title {
+    font-size: xx-large;
+    border-bottom: 1px solid gray;
+}
+
+.card .card-body {
+    font-size: large;
+    padding-block: 2rem;
+}
+
+.card .card-actions {
+    font-size: large;
+    border-top: 1px solid gray;
+    padding-top: 1rem;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 1rem;
+    opacity: 1;
+    transition: all 300ms;
+}
+
+.btn:hover {
+    opacity: .6;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.btn:active {
+    opacity: 1;
+}
+
+.btn.btn-primary {
+    background-color: rgb(73, 73, 245);
+    color: white;
+}
+
+.btn.btn-secondary {
+    background-color: rgb(245, 73, 73);
+    color: white;
+}
